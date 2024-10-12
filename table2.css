@@ -1,0 +1,34 @@
+.container{
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr 8fr 1fr 4fr 1fr 1fr;
+    grid-gap: 1px;
+    grid-template-areas: "a a a a a a b b"
+                         "c c d d d e f f"
+                         "c c d d d e h h"
+                         "g g g g k k k k"
+                         "l l l l k k k k"
+                         "m n n n n n n o";
+}
+.container *{
+    border: 1px dashed green;
+    background-color: lightgreen;
+    border-radius: 10px;
+    justify-content: center
+
+}
+.b1{grid-area: a;}
+.b2{grid-area: b;}
+.b3{grid-area: c;}
+.b4{grid-area: d;}
+.b5{grid-area: e;}
+.b6{grid-area: f;}
+.b7{grid-area: g;}
+.b8{grid-area: h;}
+.b9{grid-area: l;}
+.b10{grid-area: k;}
+.b11{grid-area: m;}
+.b12{grid-area: n;}
+.b13{grid-area: o;}
+
